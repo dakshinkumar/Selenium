@@ -22,7 +22,7 @@ public class OpenGoo {
         driver.get("https://portal.urjanet.net");
         //search some
         driver.findElement(By.name("username")).sendKeys("dakshin.kumaran");
-        driver.findElement(By.name("password")).sendKeys("Dakshin*0010"+Keys.ENTER);
+        driver.findElement(By.name("password")).sendKeys("*********"+Keys.ENTER);
         
         //driver.findElement(By.xpath("//*[@id=\'global-msgs\']/div/a")).click();
         driver.findElement(By.xpath("//*[@id=\'s2id_customerSelect\']/a")).click();
