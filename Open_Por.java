@@ -25,7 +25,7 @@ System.setProperty("webdriver.chrome.driver","/home/dakshinkumartk/Videos/chrome
         driver.get("https://portal.urjanet.net");
         //search some
         driver.findElement(By.name("username")).sendKeys("dakshin.kumaran");
-        driver.findElement(By.name("password")).sendKeys("Dakshin*0010"+Keys.ENTER);
+        driver.findElement(By.name("password")).sendKeys("*********"+Keys.ENTER);
         //Thread.sleep(1000);
         String myString = "TimeWarner_66221-CityOfSpringfieldNE_1";
 		String[] splitString = myString.split("_");
